@@ -1,0 +1,17 @@
+<template>
+  <div class="uk-alert ${ state.type && 'uk-alert-' + state.type }">
+    <button :if="state.closeable" class="uk-close uk-alert-close"></button>
+    <slot></slot>
+  </div>
+</template>
+
+<script>
+  export default class extends Lego {
+    init() {
+      this.state = {
+        type: "",
+        closeable: false,
+      }
+    }
+  }
+</script>

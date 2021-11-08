@@ -1,0 +1,17 @@
+<template>
+  <div class="uk-flex${ state.type == 'inline' && '-inline' }">
+    <slot></slot>
+  </div>
+</template>
+
+<script>
+  export default class extends Lego {
+    init() {
+      this.state = {
+        type: '',
+        halign: '',
+        valign: '',
+      }
+    }
+  }
+</script>

@@ -1,0 +1,32 @@
+{
+  "name": "legokit",
+  "version": "1.0.0",
+  "description": "UIKit ready-to-use Web-Components based on Lego",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polight/legokit.git"
+  },
+  "keywords": [
+    "web-components",
+    "html-elements",
+    "lego",
+    "vue",
+    "react",
+    "svelte"
+  ],
+  "author": "Vincent Agnano <vinyll@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polight/legokit/issues"
+  },
+  "homepage": "https://github.com/polight/legokit#readme",
+  "dependencies": {
+    "@polight/lego": "^1.6.6",
+    "uikit": "^3.8.1"
+  }
+}
